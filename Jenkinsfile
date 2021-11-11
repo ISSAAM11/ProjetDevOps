@@ -8,12 +8,12 @@ pipeline {
                 git 'https://github.com/ISSAAM11/ProjetDevOps.git'
             }
         }
-/*      stage("Build") {
+        stage("Build") {
             steps {
                 bat "mvn -version"
-                bat "mvn clean"
+                bat "mvn clean package -Dskiptests"
             }
-        }   */
+        }   
     }
     post{
         always{
