@@ -8,11 +8,11 @@ pipeline {
                 bat "mvn -version"
             }
         }
-        stage("Build") {
+/*      stage("Build") {
             steps {
                 bat "mvn clean"
             }
-        }   
+        }   */
     }
     post{
         always{
