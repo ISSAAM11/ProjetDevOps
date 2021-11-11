@@ -4,12 +4,13 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
+                git branch: "main"
                 bat "https://github.com/ISSAAM11/ProjetDevOps.git"
-                bat "mvn -version"
             }
         }
 /*      stage("Build") {
             steps {
+                bat "mvn -version"
                 bat "mvn clean"
             }
         }   */
