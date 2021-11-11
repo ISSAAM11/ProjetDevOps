@@ -50,10 +50,10 @@ public class TestDepartement {
 	@Test
 	@Order(2)
 	public void testGetAllDepartementsNamesByEntreprise(){
-		List<String>  ListDep = EntrepriseSer.getAllDepartementsNamesByEntreprise(1);
+		List<String>  ListDepe = EntrepriseSer.getAllDepartementsNamesByEntreprise(1);
 		List<String>  ListDepTest = DepartementRep.getAllDepartementsNamesByEntreprise(1);
 
-		assertEquals(ListDepTest, ListDep);
+		assertEquals(ListDepTest, ListDepe);
 
 	}
 	
