@@ -19,7 +19,5 @@ pipeline {
             emailext body: 'build success', subject: 'build success', to: 'issam.benhassine@esprit.tn'
          }
         
-                    emailext body: 'build success', subject: 'build success', to: 'issam.benhassine@esprit.tn'
-
-    }
+     }
 }
