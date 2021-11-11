@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 git branch: "main"
-                bat "https://github.com/ISSAAM11/ProjetDevOps.git"
+                git 'https://github.com/ISSAAM11/ProjetDevOps.git'
             }
         }
 /*      stage("Build") {
