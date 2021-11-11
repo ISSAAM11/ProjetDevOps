@@ -4,7 +4,13 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo "hi"
+                bat "https://github.com/ISSAAM11/ProjetDevOps.git"
+                bat "mvn -version"
+            }
+        }
+        stage('Hello') {
+            steps {
+                bat "mvn clean install"
             }
         }
     }
