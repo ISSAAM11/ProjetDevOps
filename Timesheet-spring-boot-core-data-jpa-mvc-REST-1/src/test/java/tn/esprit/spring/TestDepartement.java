@@ -28,8 +28,8 @@ public class TestDepartement {
 		int id = 2;
 		assertEquals(2, id);
 	}
-/*	
-	//EntrepriseRepository EntrepriseRep;
+	
+/*	//EntrepriseRepository EntrepriseRep;
  	//DepartementRepository DepartementRep;
  	
 	public IEntrepriseService EntrepriseSer ;
